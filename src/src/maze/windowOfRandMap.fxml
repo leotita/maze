@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="482.0" minHeight="147.0" minWidth="295.0" prefHeight="147.0" prefWidth="295.0" style=" -fx-background-radius: 60;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maze.FxmlEventHander">
+   <children>
+      <Button fx:id="close" layoutX="62.0" layoutY="96.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      <Button fx:id="ok" layoutX="217.0" layoutY="96.0" mnemonicParsing="false" onAction="#ok" text="OK" />
+      <Label layoutX="27.0" layoutY="48.0" text="Width" textFill="#d117f2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="48.0" text="Height" textFill="#720383">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textOfWidth" layoutX="93.0" layoutY="50.0" onAction="#TextOfWidth" prefHeight="23.0" prefWidth="47.0" />
+      <TextField fx:id="textOfHeight" layoutX="225.0" layoutY="50.0" onAction="#TextOfHeight" prefHeight="23.0" prefWidth="47.0" />
+      <Button fx:id="Default" layoutX="134.0" layoutY="96.0" mnemonicParsing="false" onAction="#Default" text="Default" />
+   </children>
+</Pane>

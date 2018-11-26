@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="200.0" minHeight="-Infinity" minWidth="200.0" prefHeight="774.0" prefWidth="200.0"  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maze.FxmlEventHander">
+   <children>
+      <Button fx:id="importMap" layoutX="36.0" layoutY="214.0" mnemonicParsing="false" onAction="#importMap" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="导入地图" textFill="#d06b39" />
+      <Button fx:id="randMap" layoutX="36.0" layoutY="359.0" mnemonicParsing="false" onAction="#randMap" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="随机生成" textFill="#bc3fc3" />
+      <Button fx:id="StepOnce" layoutX="36.0" layoutY="512.0" mnemonicParsing="false" onAction="#StepOnce" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="单步寻路" textFill="#bc3fc3" />
+      <Button fx:id="ergodicMap" layoutX="36.0" layoutY="591.0" mnemonicParsing="false" onAction="#ergodicMap" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="遍历迷宫" textFill="#bc3fc3" />
+      <Button fx:id="findPath" layoutX="36.0" layoutY="435.0" mnemonicParsing="false" onAction="#findPath" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="寻找出路" textFill="#bc3fc3" />
+      <Button fx:id="renew" layoutX="36.0" layoutY="140.0" mnemonicParsing="false" onAction="#renew" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="初始化地图" textFill="#e11529" />
+      <Button fx:id="save" layoutX="36.0" layoutY="285.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="保存地图" textFill="#bc3fc3" />
+      <Button fx:id="duan" layoutX="36.0" layoutY="668.0" mnemonicParsing="false" onAction="#duan" prefHeight="40.0" prefWidth="114.0" style="-fx-background-image: url('t2.png'); -fx-border-radius:55; -fx-background-radius:55;" text="最短路径" textFill="#bc3fc3" />
+   </children>
+</Pane>
